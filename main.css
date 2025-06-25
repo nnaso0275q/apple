@@ -1,0 +1,60 @@
+body {
+    margin: 0;
+}
+
+header {
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(245, 245, 247, 0.8);
+    gap: 32px;
+}
+
+.menu {
+    display: flex;
+    gap: 24px;
+}
+
+.menu a {
+    font-weight: 400;
+    size: 12px;
+    font-family: Inter, sans-serif;
+}
+
+
+.text {
+    text-align: center;
+    padding: 16px 0;
+    font-size: 14px;
+    font-family: inter;
+}
+
+.every {
+    position: relative;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.hero img{
+    width: 100%;
+    display: block;
+}
+
+.hero-text{
+    position: absolute;
+    top: 55px;
+    left: 50%;
+    text-align: center;
+    color: white;
+
+}
+.hero-text h1{
+    font-size: 52px;
+    margin-bottom: 16px;
+}
+.hero-text p{
+    font-size: 24px;
+    margin-bottom: 20px;
+}
